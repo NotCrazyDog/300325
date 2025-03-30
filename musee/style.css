@@ -1,0 +1,185 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f3e9;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 20px 16px 0px;
+    border: #933c1f;
+}
+
+#introducaoERedes, #secoes {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 16px;
+    letter-spacing: 0.02rem;
+}
+
+#nomeDaLogo {
+    text-decoration: none;
+    color: #933c1f;
+    font-size: 70px;
+}
+
+#descricaoDaEmpresa {
+    color: #933c1f;
+    text-align: start;
+}
+
+#secaoDasRedesSociais {
+    margin-top: 10px;
+}
+
+.redeSocial {
+    text-decoration: none;
+    color: #933c1f;
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+.linkDaSecao, .linkDaSecaoFinal {
+    text-decoration: none;
+    color: #933c1f;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.linkDaSecao:hover, .linkDaSecaoFinal:hover {
+    text-decoration: underline;
+    color: #933c1f;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#exibicoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+#tituloExibicoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.vejaMais, h2 {
+    color: #933c1f;
+}
+
+.listaDeArtes {
+    display: flex;
+    justify-content: center;
+}
+
+.artes {
+    margin-left: 20px;
+    width: 308;
+}
+
+.nomeDaArte {
+    text-decoration: none;
+    color: #933c1f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.dataDaArte {
+    color: #933c1f;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+img {
+    margin-top: 5px;
+}
+
+#sobreNos {
+    background-color: #933c1f;
+}
+
+#historia {
+    display: flex;;
+    padding-top: 40px;
+}
+
+.divHist {
+    display: block;
+    min-width: 45%;
+    margin: 30px;
+    padding: 10px;
+}
+
+#tituloHistoria {
+    color: white;
+    text-transform: uppercase;
+}
+
+.parahis {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#sobreOMuseu {
+    display: flex;
+    justify-content: center;
+}
+
+.informacao {
+    margin: 20px
+}
+.tituloDaInformacao {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.paragrafoDaInformacao {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+#colecoes {
+    margin-top: 40px;
+}
+
+#tituloColecoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#exibicoes {
+    margin-top: 30px;
+}
+
+#rodapeFinal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#fonte {
+    display: flex;
+}
+
+#textoDaFonte, #linkDaFonte {
+    color: #933c1f;
+    font-size: 15px;
+}
+
+#secaoFinal {
+    display: flex;
+}
