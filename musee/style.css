@@ -84,7 +84,10 @@ body {
 
 .artes {
     margin-left: 20px;
-    width: 308;
+    width: 240px;
+    height: 308px;
+    overflow-wrap: break-word;
+    word-break: break-all;
 }
 
 .nomeDaArte {
@@ -123,6 +126,7 @@ img {
 #tituloHistoria {
     color: white;
     text-transform: uppercase;
+    margin-top: 50px;
 }
 
 .parahis {
@@ -137,8 +141,13 @@ img {
 }
 
 .informacao {
-    margin: 20px
+    margin: 20px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    width: 240px;
+    height: 308px;
 }
+
 .tituloDaInformacao {
     color: white;
     margin-bottom: 10px;
